@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noorkaran</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Images/N.png" type="image/icon type" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="button">
+        <img src="Images/dashboard.png" />
+        <span class="btn-name">Dashboard</span>
+      </div>
+      <div class="button2">
+        <img class="image" src="Images/assessment.png" />
+        <span class="btn-assess">Assessment</span>
+      </div>
+      <div class="button3">
+        <img src="Images/library.png" />
+        <span class="btn-lib">Library</span>
+      </div>
+      <div class="button4">
+        <img src="Images/Link.png" />
+        <span class="btn-record">Round Status</span>
+      </div>
+    </div>
+    <div class="content">
+      <div class="heading">
+        <h1>Assessment</h1>
+        <p>My Assessments</p>
+        <img class="image1" src="Images/mobile-phone.png" alt="mobile phone" />
+      </div>
+    </div>
+    <div class="body">
+      <h1>Assessment Overview</h1>
+      <div class="bor">
+        <div class="body-content">
+          <p>Total Assessment</p>
+          <img src="Images/List.png" alt="list" />
+          <h1>34</h1>
+        </div>
+        <div class="body-content1">
+          <p2>Candidates</p2>
+          <img src="Images/Candidate.png" alt="list" />
+          <div class="decor">
+            <h1>
+              11,145
+              <p>+89</p>
+            </h1>
+            <h1>
+              1,14
+              <p>+89</p>
+            </h1>
+          </div>
+          <div id="a1" class="decor2">
+            <p1>Total Candidate</p1>
+            <p1 id="b2">Who Attempted</p1>
+          </div>
+        </div>
+        <div class="body-content2">
+          <p>Candidate Source</p>
+          <img src="Images/source.png" alt="list" />
+          <div class="decor3">
+            <h1>
+              11,000
+              <p>+89</p>
+            </h1>
+            <h1>
+              145
+              <p>+89</p>
+            </h1>
+            <h1>
+              145
+              <p>+89</p>
+            </h1>
+          </div>
+          <div id="a2" class="decor4">
+            <p1>E-mail</p1>
+            <p1 id="b">Social Share</p1>
+            <p1>Unique Link</p1>
+          </div>
+        </div>
+        <div class="body-content3">
+          <p>Total Purpose</p>
+          <img src="Images/Total.png" alt="list" />
+          <h1>11</h1>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <h1>My Assessment</h1>
+    </div>
+    <div class="card">
+      <div class="card-new">
+        <div class="card1">
+          <img id="showFormBtn" src="Images/plus.png" class="img" alt="plus" />
+          <h1>New Assessment</h1>
+          <p>From here you can add multiple questions <br/> and MCQs</p>
+        </div>
+        <div class="card2">
+          <img src="Images/school-bag.png" class="img1" alt="plus" />
+          <img class="three" src="Images/three dots.png" alt="three dot">
+          <h1>Math Assessment</h1>
+          <p>Job <p> 12-08-2023</p></p><br>
+          <p1>00</p1>
+          <p1 id="d">00</p1><br>
+          <p2  id="d2">Duration</p2>
+          <p2>Questions</p2>
+          <button class="btn-s"><img src="Images/share.png" alt="">Share</button>
+        </div>
+        <div class="card3">
+          <img src="Images/school-bag.png" class="img1" alt="plus" />
+          <img class="three" src="Images/three dots.png" alt="three dot">
+          <h1>Math Assessment</h1>
+          <p>Job <p> 12-08-2023</p></p><br>
+          <p1>00</p1>
+          <p1 id="d">00</p1><br>
+          <p2  id="d2">Duration</p2>
+          <p2>Questions</p2>
+          <button class="btn-s"><img src="Images/share.png" alt="">Share</button>
+        </div>
+        <div class="modal-bg" id="modalBg">
+          <div class="modal">
+            <form id="myForm"">
+              <h2>Create New Assessment</h2>
+              <h1>Enter Your Name</h1>
+              <input
+                class="input"
+                type="text"
+                name="name"
+                placeholder="Type Here"
+              />
+              <h1>Purpose of the Test is</h1>
+              <select class="input2" id="Test" name="Test">
+                <option value=" ">Select</option>
+                <option value=" "></option>
+                <option value=" "></option>
+              </select>
+              <h1>Description</h1>
+              <select class="input3" id="desc" name="desc">
+                <option value=" ">Select</option>
+                <option value=" "></option>
+                <option value=" "></option>
+                <option value=" "></option>
+              </select>
+              <h1>Skills</h1>
+              <select class="input4" id="skills" name="skills">
+                <option value=" ">Select</option>
+                <option value=" "></option>
+                <option value=" "></option>
+                <option value=" "></option>
+              </select>
+              <h1>Duration of Assessment</h1>
+              <input class="input5" type="time" id="appt" name="appt" /><br />
+              <button onclick="close()" class="btn">Save</button>
+            </form>
+          </div>
+        </div>
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
